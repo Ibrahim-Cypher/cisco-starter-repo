@@ -1,26 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Banner from './components/Banner';
+import Exhibit from './components/Exhibit';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to SEXTANT
-        </a>
-      </header>
+    <div>
+      <Banner />  
+      <Exhibit title="Exhibit">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod similique perspiciatis hic id, facere magni maxime assumenda ab velit pariatur corporis a. Tempora recusandae sed dolorum? Aspernatur, dolores rem?.</p>
+      </Exhibit>
+        
     </div>
   );
-}
+};
 
 export default App;
-
