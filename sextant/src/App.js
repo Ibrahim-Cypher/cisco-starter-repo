@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Welcome to SEXTANT
         </a>
       </header>
     </div>
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+
