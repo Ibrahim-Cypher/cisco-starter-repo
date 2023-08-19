@@ -3,6 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "websocket": "^1.0.34"
+        "nodejs-websocket": "^1.7.2",
+        "websocket": "^1.0.34",
+        "ws": "^8.13.0"
     }
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const IpAPIFetch = ({ url }) => {
+const IpAPIFetch = ({ url, type}) => {
   const [ipAddress, setIpAddress] = useState('');
 
   useEffect(() => {
@@ -16,7 +16,7 @@ const IpAPIFetch = ({ url }) => {
 
   return (
     <span>
-      <p>IP Address: {ipAddress}</p>
+      <p> {type}: {ipAddress}</p>
     </span>
   );
 };
